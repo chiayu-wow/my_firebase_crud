@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:ems="10"
+        android:id="@+id/title2"
+        android:layout_width="300dp"
+        android:textFontWeight="10"
+        android:text="個人資訊修改"
+        android:layout_height="wrap_content"
+        ></TextView>
+
+
+
+    <EditText
+        android:hint="new name"
+        android:id="@+id/edit_name"
+        android:layout_below="@id/title2"
+        android:layout_width="300dp"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content"
+   ></EditText>
+
+    <EditText
+        android:hint="new habbit"
+        android:id="@+id/edit_age"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_name"
+        android:layout_marginBottom="15dp"></EditText>
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:text="change"
+        android:layout_below="@+id/edit_age"
+        android:id="@+id/change_btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        ></Button>
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:text="DELETE"
+        android:layout_below="@+id/change_btn"
+        android:id="@+id/de_btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        ></Button>
+
+
+</RelativeLayout>
